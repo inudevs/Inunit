@@ -8,8 +8,12 @@ Simple BLE Beacon IoT device boilerplate with Arduino
 <img src="./images/nano.jpg" width="30%"><img src="./images/hm-10.jpg" width="30%">
 
 ## Design
-![design](images/design.png)
-> With [circuito.io](https://circuito.io)
+| Arduino  | HM-10   |
+| -------- | -------:|
+| 5V       | VCC     |
+| GND      | GND     |
+| D8       | TXD     |
+| D9       | RXD     |
 
 ## Config
 [config.ino](./config.ino) 업로드 후 시리얼로 설정
